@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".atd">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="@font/actor"
+        android:text="Introducing 7 Days Fast Diet Planner for weight loss info on how to lose weight fast in 1 week and how to lose belly fat at home fast in 7 days diet plan."
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="@font/actor"
+        android:text="Each day includes three meals and three snacks and has a healthy balance of carbohydrates, fats, and proteins. You'll also get plenty of fiber from whole grains, fruits, vegetables, and legumes.."
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="@font/actor"
+        android:text="In nutrition, diet is the sum of food consumed by a person or other organism. The word diet often implies the use of specific intake of nutrition for health or weight-management reasons (with the two often being related). Although humans are omnivores, each culture and each person holds some food preferences or some food taboos. This may be due to personal tastes or ethical reasons. Individual dietary choices may be more or less healthy."
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Benefits of Healthy Diet:"
+        android:textSize="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text=" * May help you live longer."
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text=" * Keeps skin, teeth, and eyes healthy."
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text=" * Boosts immunity."
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text=" * Strengthens bones."
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text=" * Lowers risk of heart disease, type 2 diabetes, and some cancers."
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text=" * Helps the digestive system function."
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/baloo_paaji"
+        android:textSize="17dp"
+        android:text="BACK" />
+
+</LinearLayout>
