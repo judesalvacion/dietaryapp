@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class page3 extends AppCompatActivity {
 
-    private Button button, monday, tuesday, wednesday, thursday, friday, saturday, sunday;
+    private Button button, monday, tuesday, wednesday, thursday, friday, saturday, sunday, locat, camer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,8 @@ public class page3 extends AppCompatActivity {
         friday = (Button) findViewById(R.id.friday);
         saturday = (Button) findViewById(R.id.saturday);
         sunday = (Button) findViewById(R.id.sunday);
+        locat = (Button) findViewById(R.id.loc);
+        camer = (Button) findViewById(R.id.cam);
         button = (Button) findViewById(R.id.btn1);
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -80,6 +82,18 @@ public class page3 extends AppCompatActivity {
                 opensunday();
             }
         });
+        locat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openlocation();
+            }
+        });
+        camer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                opencamera();
+            }
+        });
     }
     public void openmon2() {
         Intent intent = new Intent(this, mon2.class);
@@ -120,6 +134,14 @@ public class page3 extends AppCompatActivity {
 
     public void opensunday() {
         Intent intent = new Intent(this, sunday.class);
+        startActivity(intent);
+    }
+    public void openlocation() {
+        Intent intent = new Intent(this, location.class);
+        startActivity(intent);
+    }
+    public void opencamera() {
+        Intent intent = new Intent(this, camera.class);
         startActivity(intent);
     }
 }
